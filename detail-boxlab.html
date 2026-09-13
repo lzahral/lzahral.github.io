@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Detail</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="container nav">
+
+        
+
+        <nav class="menu">
+            <!-- <a href="#">خانه</a> -->
+            <a href="projects.html" class="active">پروژه‌ها</a>
+            <!-- <a href="#">درباره من</a>
+            <a href="#">مهارت‌ها</a>
+            <a href="#">تماس</a> -->
+        </nav>
+
+        <a href="#" class="logo">
+            <span class="logo-dot"></span>
+        </a>
+    </div>
+</header>
+
+
+
+<main>
+
+<!-- ================= PROJECT HEADER ================= -->
+
+<section class="detail-hero">
+
+    <div class="container">
+
+        <a href="projects.html" class="back-link">
+            → بازگشت به پروژه‌ها
+        </a>
+
+        <div class="detail-hero-grid">
+
+            <div class="detail-info">
+
+                <span class="project-badge">
+                    فول‌استک
+                </span>
+
+                <h1>
+                    پلتفرم خدمات
+                    <span>پرینت سه‌بعدی</span>
+                </h1>
+
+                <p class="detail-description">
+                    یک پلتفرم جامع برای ارائه و مدیریت خدمات پرینت سه‌بعدی
+                    که فرآیند ثبت سفارش، دریافت فایل، محاسبه هزینه،
+                    مدیریت سفارش و فرآیند تولید را در یک سیستم یکپارچه
+                    پوشش می‌دهد.
+                </p>
+
+                <div class="tags large-tags">
+                    <span>Django</span>
+                    <span>Django REST Framework</span>
+                    <span>React</span>
+                    <span>PrusaSlicer</span>
+                    <span>Trimesh</span>
+                    <span>SQLite</span>
+                </div>
+
+                <div class="project-meta">
+
+                    <div>
+                        <small>نوع پروژه</small>
+                        <strong>پلتفرم تحت وب</strong>
+                    </div>
+
+                    <div>
+                        <small>نقش</small>
+                        <strong>توسعه‌دهنده Backend و سیستم مدیریت</strong>
+                    </div>
+
+                    <div>
+                        <small>وضعیت</small>
+                        <strong class="status">● در حال توسعه</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTENT ================= -->
+
+<section class="detail-section">
+
+    <div class="container detail-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="detail-sidebar">
+
+            <a href="#overview" class="active">
+                معرفی پروژه
+            </a>
+
+            <a href="#features">
+                قابلیت‌ها
+            </a>
+
+            <a href="#workflow">
+                فرآیند سیستم
+            </a>
+
+            <a href="#management">
+                مدیریت و سفارش‌ها
+            </a>
+
+            <a href="#technical">
+                جزئیات فنی
+            </a>
+
+            <a href="#screenshots">
+                تصاویر پروژه
+            </a>
+
+            <!-- <div class="sidebar-actions">
+
+                <a href="#" class="btn primary">
+                    مشاهده پروژه ↗
+                </a>
+
+                <a href="#" class="btn secondary">
+                    GitHub ↗
+                </a>
+
+            </div> -->
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <div class="detail-content">
+
+
+            <!-- ================= OVERVIEW ================= -->
+
+            <section id="overview" class="content-block">
+
+                <span class="content-label">
+                    ۰۱ / معرفی پروژه
+                </span>
+
+                <h2>
+                    پلتفرم مدیریت خدمات پرینت سه‌بعدی
+                </h2>
+
+                <p>
+                    این پروژه یک سامانه برای ارائه خدمات پرینت سه‌بعدی
+                    و مدیریت فرآیند سفارش از مرحله دریافت فایل تا
+                    آماده‌سازی و تحویل سفارش است.
+                </p>
+
+                <p>
+                    کاربر می‌تواند مدل سه‌بعدی خود را در سامانه بارگذاری
+                    کرده و مشخصات موردنظر برای چاپ را انتخاب کند.
+                    سیستم با استفاده از اطلاعات مدل و تنظیمات چاپ،
+                    اطلاعات موردنیاز برای برآورد هزینه و زمان تولید
+                    را پردازش می‌کند.
+                </p>
+
+                <p>
+                    در سمت مدیریت نیز مجموعه‌ای از ابزارها برای مدیریت
+                    کاربران، سفارش‌ها، دستگاه‌ها، مواد مصرفی، وضعیت
+                    تولید و فرآیند آماده‌سازی سفارش در نظر گرفته شده است.
+                </p>
+
+                <div class="info-highlight">
+
+                    <strong>
+                        ساختار پروژه
+                    </strong>
+
+                    <span>
+                        Django Backend + REST API + React Frontend + Django Admin Panel                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= FEATURES ================= -->
+
+            <section id="features" class="content-block">
+
+                <span class="content-label">
+                    ۰۲ / قابلیت‌ها
+                </span>
+
+                <h2>
+                    قابلیت‌های اصلی سیستم
+                </h2>
+
+                <div class="features-grid">
+
+                    <div class="feature">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>
+                                مدیریت فایل‌های سه‌بعدی
+                            </h3>
+
+                            <p>
+                                دریافت فایل‌های STL و پردازش اطلاعات
+                                مدل برای استفاده در فرآیند سفارش و
+                                محاسبه هزینه چاپ.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>
+                                محاسبه قیمت چاپ
+                            </h3>
+
+                            <p>
+                                محاسبه هزینه بر اساس نوع پرینتر،
+                                ماده مصرفی، زمان چاپ، حجم مدل و
+                                پارامترهای تعریف‌شده برای خدمات.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>03</span>
+
+                        <div>
+                            <h3>
+                                مدیریت سفارش
+                            </h3>
+
+                            <p>
+                                ایجاد سفارش و مدیریت وضعیت آن در
+                                مراحل مختلف از ثبت سفارش تا آماده‌سازی
+                                و تحویل.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>04</span>
+
+                        <div>
+                            <h3>
+                                مدیریت کاربران
+                            </h3>
+
+                            <p>
+                                ثبت‌نام، احراز شماره تلفن، مدیریت
+                                پروفایل و کنترل دسترسی کاربران
+                                بر اساس نقش‌های مختلف.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>05</span>
+
+                        <div>
+                            <h3>
+                                کیف پول و پرداخت
+                            </h3>
+
+                            <p>
+                                مدیریت اعتبار کاربران و ثبت تراکنش‌های
+                                مالی مرتبط با سفارش‌ها و پرداخت‌ها.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>06</span>
+
+                        <div>
+                            <h3>
+                                مدیریت تولید
+                            </h3>
+
+                            <p>
+                                مدیریت مراحل تولید، صف سفارش‌ها،
+                                پرینترها و فرآیند آماده‌سازی سفارش
+                                برای ارسال.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= WORKFLOW ================= -->
+
+            <section id="workflow" class="content-block">
+
+                <span class="content-label">
+                    ۰۳ / فرآیند سیستم
+                </span>
+
+                <h2>
+                    از فایل سه‌بعدی تا سفارش
+                </h2>
+
+                <p>
+                    فرآیند اصلی سامانه از دریافت مدل سه‌بعدی شروع شده
+                    و در چند مرحله به ثبت و مدیریت سفارش منتهی می‌شود.
+                </p>
+
+                <div class="workflow">
+
+                    <div class="workflow-item">
+
+                        <span>۰۱</span>
+
+                        <div>
+                            <strong>
+                                بارگذاری مدل
+                            </strong>
+
+                            <p>
+                                کاربر فایل سه‌بعدی خود را در سامانه
+                                بارگذاری می‌کند.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۲</span>
+
+                        <div>
+                            <strong>
+                                انتخاب تنظیمات
+                            </strong>
+
+                            <p>
+                                نوع ماده، کیفیت چاپ، درصد پرشدگی
+                                و سایر تنظیمات مشخص می‌شوند.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۳</span>
+
+                        <div>
+                            <strong>
+                                محاسبه هزینه
+                            </strong>
+
+                            <p>
+                                سیستم زمان و هزینه تقریبی تولید
+                                را محاسبه می‌کند.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۴</span>
+
+                        <div>
+                            <strong>
+                                ثبت سفارش
+                            </strong>
+
+                            <p>
+                                سفارش ثبت شده و وارد فرآیند
+                                مدیریت و تولید می‌شود.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۵</span>
+
+                        <div>
+                            <strong>
+                                آماده‌سازی و ارسال
+                            </strong>
+
+                            <p>
+                                سفارش در فرآیند تولید قرار گرفته
+                                و پس از آماده شدن برای ارسال آماده می‌شود.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= MANAGEMENT ================= -->
+
+            <section id="management" class="content-block">
+
+                <span class="content-label">
+                    ۰۴ / مدیریت سیستم
+                </span>
+
+                <h2>
+                    بخش‌های مدیریتی سامانه
+                </h2>
+
+                <p>
+                    ساختار مدیریت پروژه به صورت ماژولار طراحی شده
+                    تا هر بخش از فرآیند کاری بتواند به صورت مستقل
+                    مدیریت شود.
+                </p>
+
+
+                <div class="management-list">
+
+                    <div>
+                        <strong>مدیریت سفارش‌ها</strong>
+                        <span>
+                            مشاهده، بررسی و تغییر وضعیت سفارش‌ها
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>مدیریت کاربران</strong>
+                        <span>
+                            مدیریت حساب‌ها، پروفایل‌ها و دسترسی‌ها
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>مدیریت پرینترها</strong>
+                        <span>
+                            تعریف دستگاه‌ها و پارامترهای مربوط به تولید
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>مدیریت مواد مصرفی</strong>
+                        <span>
+                            تعریف مواد و پارامترهای هزینه‌ای
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>مدیریت فرآیند تولید</strong>
+                        <span>
+                            کنترل صف و مراحل آماده‌سازی سفارش
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>گزارش‌ها و اطلاعات</strong>
+                        <span>
+                            دسترسی به اطلاعات سفارش‌ها و فعالیت‌های سیستم
+                        </span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= TECHNICAL ================= -->
+
+            <section id="technical" class="content-block">
+
+                <span class="content-label">
+                    ۰۵ / جزئیات فنی
+                </span>
+
+                <h2>
+                    تکنولوژی و ساختار فنی
+                </h2>
+
+                <p> Backend پروژه با Django توسعه داده شده و APIهای موردنیاز Frontend با Django REST Framework پیاده‌سازی شده‌اند. رابط کاربری اصلی با React توسعه داده شده و پنل مدیریت داخلی با Django Templates پیاده‌سازی شده است. </p>
+
+                <p> برای پردازش فایل‌های سه‌بعدی از Trimesh و برای استخراج اطلاعات فرآیند Slicing از PrusaSlicer استفاده شده است. </p>
+
+
+                <div class="tech-stack">
+
+                    <div>
+                        <small>Backend</small>
+                        <strong>Django</strong>
+                    </div>
+
+                    <div>
+                        <small>API</small>
+                        <strong>Django REST Framework</strong>
+                    </div>
+
+                    <div>
+                        <small>Frontend</small>
+                        <strong>React</strong>
+                    </div>
+
+                    <div>
+                        <small>پردازش مدل</small>
+                        <strong>Trimesh</strong>
+                    </div>
+
+                    <div>
+                        <small>Slicing</small>
+                        <strong>PrusaSlicer</strong>
+                    </div>
+
+                    <div>
+                        <small>Database</small>
+                        <strong>SQLite</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= SCREENSHOTS ================= -->
+
+            <section id="screenshots" class="content-block">
+
+                <span class="content-label">
+                    ۰۶ / تصاویر پروژه
+                </span>
+
+                <h2>
+                    نمایی از بخش‌های پروژه
+                </h2>
+
+                <p>
+                    بخشی از رابط کاربری و پنل‌های مدیریتی سامانه.
+                </p>
+
+                <div class="screenshots-grid">
+
+                    <div class="screenshot large">
+                        <img
+                            src="images/boxlab_0.png"
+                            alt="داشبورد سامانه"
+                            onclick="openLightbox(this)"
+                        >
+                    </div>
+
+                    <div class="screenshot">
+                        <img
+                            src="images/boxlab_2.png"
+                            alt="مدیریت سفارش‌ها"
+                            onclick="openLightbox(this)"
+                        >
+                    </div>
+
+                    <div class="screenshot">
+                        <img
+                            src="images/boxlab_3.png"
+                            alt="صفحه محصول"
+                            onclick="openLightbox(this)"
+                        >
+                    </div>
+                </div>
+
+            </section>
+            <!-- ================= LIGHTBOX ================= -->
+
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+
+            <button class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">
+                ×
+            </button>
+
+            <img id="lightbox-image" src="" alt="">
+
+            </div>
+
+
+
+            <!-- ================= ROLE ================= -->
+
+            <!-- <section class="content-block role-block">
+
+                <span class="content-label">
+                    نقش من در پروژه
+                </span>
+
+                <h2>
+                    توسعه و پیاده‌سازی
+                </h2>
+
+                <p>
+                    در این پروژه مسئولیت طراحی و توسعه بخش‌های مختلف
+                    نرم‌افزار، پیاده‌سازی Backend و APIها، طراحی منطق
+                    سفارش و قیمت‌گذاری و توسعه بخش‌هایی از اپلیکیشن
+                    موبایل را بر عهده داشتم.
+                </p>
+
+                <div class="role-tags">
+
+                    <span>طراحی Backend</span>
+                    <span>توسعه API</span>
+                    <span>طراحی دیتابیس</span>
+                    <span>منطق کسب‌وکار</span>
+                    <span>توسعه اپلیکیشن</span>
+
+                </div>
+
+            </section> -->
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+    <!-- <div class="container footer-inner">
+
+        <div>
+            <strong>زهرا</strong>
+            <p>
+                توسعه‌دهنده نرم‌افزار
+            </p>
+        </div>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+
+    </div> -->
+
+</footer>
+<script src="detail.js"></script>
+</body>
+</html>

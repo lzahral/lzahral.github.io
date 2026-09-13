@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Detail</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="container nav">
+
+        
+
+        <nav class="menu">
+            <!-- <a href="#">خانه</a> -->
+            <a href="projects.html" class="active">پروژه‌ها</a>
+            <!-- <a href="#">درباره من</a>
+            <a href="#">مهارت‌ها</a>
+            <a href="#">تماس</a> -->
+        </nav>
+
+        <a href="#" class="logo">
+            <span class="logo-dot"></span>
+        </a>
+    </div>
+</header>
+
+
+
+<main>
+
+<!-- ================= PROJECT HEADER ================= -->
+
+<section class="detail-hero">
+
+    <div class="container">
+
+        <a href="projects.html" class="back-link">
+            → بازگشت به پروژه‌ها
+        </a>
+
+        <div class="detail-hero-grid">
+
+            <div class="detail-info">
+
+                <span class="project-badge">
+                    اپلیکیشن 
+                </span>
+
+                <h1>
+                    اپلیکیشن
+                    <span>وندینگ قهوه</span>
+                </h1>
+
+                <p class="detail-description">
+                    اپلیکیشن اختصاصی برای کنترل و مدیریت دستگاه‌های وندینگ
+                            قهوه که امکان ارتباط با دستگاه، مدیریت فرآیند سفارش،
+                            پرداخت و کنترل عملکرد دستگاه را فراهم می‌کند.
+                </p>
+
+                <div class="tags large-tags">
+                    <span>Flutter</span>
+                    <span>Bloc / Cubit</span>
+                    <span>MQTT</span>
+                    <span>Serial</span>
+                    <span>Raspberry Pi</span>
+                </div>
+
+                <div class="project-meta">
+
+                    <div>
+                        <small>نوع پروژه</small>
+                        <strong>اپلیکیشن صنعتی و IoT</strong>
+                    </div>
+
+                    <div>
+                        <small>نقش</small>
+                        <strong>توسعه‌دهنده اپلیکیشن</strong>
+                    </div>
+
+                    <div>
+                        <small>وضعیت</small>
+                        <strong class="status">● تکمیل شده</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTENT ================= -->
+
+<section class="detail-section">
+
+    <div class="container detail-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="detail-sidebar">
+
+            <a href="#overview" class="active">
+                معرفی پروژه
+            </a>
+
+            <a href="#features">
+                قابلیت‌ها
+            </a>
+
+            <a href="#workflow">
+                فرآیند سیستم
+            </a>
+
+            <!-- <a href="#management">
+                مدیریت و سفارش‌ها
+            </a> -->
+
+            <a href="#technical">
+                جزئیات فنی
+            </a>
+
+            <a href="#screenshots">
+                تصاویر پروژه
+            </a>
+
+            <!-- <div class="sidebar-actions">
+
+                <a href="#" class="btn primary">
+                    مشاهده پروژه ↗
+                </a>
+
+                <a href="#" class="btn secondary">
+                    GitHub ↗
+                </a>
+
+            </div> -->
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <div class="detail-content">
+
+
+            <!-- ================= OVERVIEW ================= -->
+
+            <section id="overview" class="content-block">
+
+                <span class="content-label">
+                    ۰۱ / معرفی پروژه
+                </span>
+
+                                       <h2>
+                            یکپارچه‌سازی اپلیکیشن و دستگاه وندینگ
+                        </h2>
+
+                        <p>
+                            این پروژه یک سیستم نرم‌افزاری برای دستگاه‌های وندینگ
+                            قهوه است که در آن اپلیکیشن موبایل به عنوان یکی از
+                            بخش‌های اصلی سیستم برای ارتباط با دستگاه و مدیریت
+                            فرآیند استفاده می‌شود.
+                        </p>
+
+                        <p>
+                            اپلیکیشن با هدف ایجاد یک رابط کاربری ساده و قابل‌اعتماد
+                            برای تعامل با دستگاه طراحی شده و بخش‌هایی مانند
+                            انتخاب محصول، ارسال درخواست، دریافت وضعیت دستگاه،
+                            مدیریت فرآیند پرداخت و نمایش وضعیت عملیات را پوشش
+                            می‌دهد.
+                        </p>
+
+                        <p>
+                            ساختار برنامه به گونه‌ای پیاده‌سازی شده که منطق
+                            ارتباط با سرویس‌ها و دستگاه از رابط کاربری جدا باشد.
+                            این ساختار باعث شده توسعه بخش‌های مختلف اپلیکیشن،
+                            مدیریت وضعیت‌ها و اضافه کردن قابلیت‌های جدید ساده‌تر
+                            انجام شود.
+                        </p>
+
+                        <p>
+                            یکی از بخش‌های مهم پروژه، ارتباط نرم‌افزار با سخت‌افزار
+                            دستگاه بود. در این سیستم، اپلیکیشن و بخش کنترلی دستگاه
+                            از طریق پروتکل‌های ارتباطی مشخص با یکدیگر تبادل اطلاعات
+                            داشته و وضعیت عملیات در سمت نرم‌افزار مدیریت می‌شود.
+                        </p>
+
+                <div class="info-highlight">
+
+                    <strong>
+                        ساختار پروژه
+                    </strong>
+
+                    <span>
+                        Flutter App + REST API + MQTT + Serial Communication
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= FEATURES ================= -->
+
+            <section id="features" class="content-block">
+
+                <span class="content-label">
+                    ۰۲ / قابلیت‌ها
+                </span>
+
+                <h2>
+                    قابلیت‌های اصلی سیستم
+                </h2>
+
+                <div class="features-grid">
+
+                    <div class="feature">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>انتخاب محصول</h3>
+                                <p>
+                                    نمایش محصولات و گزینه‌های قابل انتخاب و
+                                    مدیریت فرآیند انتخاب نوشیدنی توسط کاربر.
+                                </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>کنترل فرآیند دستگاه</h3>
+                                <p>
+                                    ارسال فرمان‌های مورد نیاز به دستگاه و
+                                    مدیریت وضعیت اجرای عملیات.
+                                </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>03</span>
+
+                        <div>
+                           <h3>مدیریت پرداخت</h3>
+                                <p>
+                                    مدیریت جریان پرداخت و هماهنگی وضعیت تراکنش
+                                    با فرآیند آماده‌سازی و تحویل سفارش.
+                                </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>04</span>
+
+                        <div>
+                            <h3>ارتباط با دستگاه</h3>
+                                <p>
+                                    تبادل اطلاعات با بخش کنترلی دستگاه از طریق
+                                    ارتباطات سریال و MQTT.
+                                </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>05</span>
+
+                        <div>
+                           <h3>مدیریت وضعیت</h3>
+                                <p>
+                                    مدیریت وضعیت‌های مختلف سفارش، ارتباط،
+                                    پرداخت و اجرای عملیات در اپلیکیشن.
+                                </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <span>06</span>
+
+                        <div>
+                            <h3>رابط کاربری</h3>
+                                <p>
+                                    طراحی رابط کاربری ساده و مناسب برای استفاده
+                                    سریع در محیط دستگاه وندینگ.
+                                </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= WORKFLOW ================= -->
+
+            <section id="workflow" class="content-block">
+
+                <span class="content-label">
+                    ۰۳ / فرآیند سیستم
+                </span>
+
+                <h2>
+                            جریان اجرای یک سفارش
+                </h2>
+
+               
+
+                <div class="workflow">
+
+                    <div class="workflow-item">
+
+                        <span>۰۱</span>
+
+                        <div>
+                            <strong>انتخاب نوشیدنی</strong>
+                                    <p>
+                                        کاربر محصول مورد نظر خود را از طریق
+                                        رابط کاربری انتخاب می‌کند.
+                                    </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۲</span>
+
+                        <div>
+                            <strong>ثبت درخواست</strong>
+                                    <p>
+                                        اطلاعات انتخاب کاربر در اپلیکیشن
+                                        پردازش و درخواست سفارش ایجاد می‌شود.
+                                    </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۳</span>
+
+                        <div>
+                            <strong>پرداخت</strong>
+                                    <p>
+                                        فرآیند پرداخت انجام شده و وضعیت
+                                        تراکنش در سیستم مدیریت می‌شود.
+                                    </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۴</span>
+
+                        <div>
+                            <strong>ارسال فرمان به دستگاه</strong>
+                                    <p>
+                                        پس از تأیید فرآیند، فرمان مورد نیاز
+                                        برای آماده‌سازی نوشیدنی ارسال می‌شود.
+                                    </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="workflow-item">
+
+                        <span>۰۵</span>
+
+                        <div>
+                             <strong>دریافت وضعیت</strong>
+                                    <p>
+                                        وضعیت اجرای عملیات از دستگاه دریافت
+                                        و در اپلیکیشن به‌روزرسانی می‌شود.
+                                    </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= MANAGEMENT ================= -->
+
+                    <!-- <section class="content-block" id="architecture">
+
+                        <span class="content-label">
+                            ساختار نرم‌افزار
+                        </span>
+
+                        <h2>
+                            معماری و مدیریت وضعیت
+                        </h2>
+
+                        <p>
+                            ساختار اپلیکیشن با تمرکز بر جداسازی منطق برنامه،
+                            مدیریت وضعیت و رابط کاربری پیاده‌سازی شده است.
+                            برای مدیریت stateهای مختلف برنامه از
+                            <strong>Bloc / Cubit</strong> استفاده شده است.
+                        </p>
+
+                        <p>
+                            این ساختار امکان کنترل بهتر وضعیت‌هایی مانند
+                            انتخاب محصول، ارتباط با دستگاه، وضعیت پرداخت،
+                            اجرای سفارش و دریافت پاسخ از دستگاه را فراهم می‌کند.
+                        </p>
+
+                        <p>
+                            لایه‌های ارتباطی نیز از رابط کاربری جدا شده‌اند تا
+                            تغییر در روش ارتباط با دستگاه یا سرویس‌های مختلف،
+                            کمترین تأثیر را روی سایر بخش‌های اپلیکیشن داشته باشد.
+                        </p>
+
+                    </section> -->
+
+            <!-- ================= TECHNICAL ================= -->
+
+            <section id="technical" class="content-block">
+
+            <span class="content-label">
+                ۰۴ / جزئیات فنی
+            </span>
+
+            <h2>
+                تکنولوژی و ساختار فنی
+            </h2>
+
+            <p>
+                اپلیکیشن با Flutter توسعه داده شده و مدیریت وضعیت
+                و جریان‌های اصلی برنامه با Bloc / Cubit انجام شده است.
+            </p>
+
+            <p>
+                ارتباط مستقیم با کنترلرهای دستگاه از طریق
+                Serial Communication و کتابخانه libserialport پیاده‌سازی شده
+                و ارتباط با سرویس‌های شبکه و زیرساخت نیز با Dio و MQTT انجام می‌شود.
+            </p>
+
+            <div class="tech-stack">
+
+                <div>
+                    <small>Framework</small>
+                    <strong>Flutter</strong>
+                </div>
+
+                <div>
+                    <small>State Management</small>
+                    <strong>Bloc / Cubit</strong>
+                </div>
+
+                <div>
+                    <small>Serial Communication</small>
+                    <strong>libserialport</strong>
+                </div>
+
+                <div>
+                    <small>Network</small>
+                    <strong>Dio</strong>
+                </div>
+
+                <div>
+                    <small>Messaging</small>
+                    <strong>MQTT</strong>
+                </div>
+
+                <div>
+                    <small>Local Storage</small>
+                    <strong>SharedPreferences</strong>
+                </div>
+
+            </div>
+
+            </section>
+
+
+            <!-- ================= SCREENSHOTS ================= -->
+
+            <section id="screenshots" class="content-block">
+
+            <span class="content-label">
+                ۰۵ / تصاویر پروژه
+            </span>
+
+            <h2>
+                نمایی از بخش‌های پروژه
+            </h2>
+
+            <p>
+                بخشی از رابط کاربری.
+            </p>
+
+            <div class="screenshots-grid">
+
+                <div class="screenshot large">
+                    <img
+                        src="images/cvm_1.png"
+                        alt="داشبورد سامانه"
+                        onclick="openLightbox(this)"
+                    >
+                </div>
+
+                <div class="screenshot">
+                    <img
+                        src="images/cvm_2.png"
+                        alt="مدیریت سفارش‌ها"
+                        onclick="openLightbox(this)"
+                    >
+                </div>
+
+                <div class="screenshot">
+                    <img
+                        src="images/cvm_3.png"
+                        alt="صفحه محصول"
+                        onclick="openLightbox(this)"
+                    >
+                </div>
+
+            </div>
+
+            </section>
+
+            <!-- ================= LIGHTBOX ================= -->
+
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+
+            <button class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">
+                ×
+            </button>
+
+            <img id="lightbox-image" src="" alt="">
+
+            </div>
+
+
+            <!-- ================= ROLE ================= -->
+
+         
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <!-- <div class="container footer-inner">
+
+        <div>
+            <strong>زهرا</strong>
+            <p>
+                توسعه‌دهنده نرم‌افزار
+            </p>
+        </div>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+
+    </div> -->
+
+</footer>
+<script src="detail.js"></script>
+
+</body>
+</html>
